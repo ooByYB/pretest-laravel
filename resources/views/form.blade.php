@@ -1,5 +1,6 @@
 <h2>Buat Account Baru</h2>
 <h4>Sign Up Form</h4>
+
 <form method="" action="{{ route('get-welcome') }}">
     <label for="first-name">First name:</label><br><br>
     <input type="text" id="first-name" name="first_name" required><br><br>
